@@ -1,0 +1,9 @@
+<button (click)="logout()">Logout</button>
+<div *ngFor="let movie of movies" class="movie-item">
+    <h3 (click)="movieClicked(movie)">{{movie.title}}</h3>
+    <div>
+        <fa-icon [icon]="faEdit" (click)="editMovie(movie)"></fa-icon>
+        <fa-icon id="trash" [icon]="faTrash" (click)="deleteMovie(movie)"></fa-icon>
+    </div>
+</div>
+<button (click)="newMovie()">New Movie</button>

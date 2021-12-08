@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  apiUrl: 'https://mk-movie-rater.herokuapp.com/admin/Api/movie/'
 };

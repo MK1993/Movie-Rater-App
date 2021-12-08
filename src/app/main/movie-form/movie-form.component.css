@@ -1,0 +1,16 @@
+button{
+    margin-top: 5px;
+}
+button:disabled {
+    color: #f3f3f3;
+    background-color: #444444;
+    cursor: not-allowed;
+    margin-top: 5px;
+}
+
+input,textarea{
+    width: 50%;
+    font-size: 0.8em;
+    margin: 8px 0;
+    padding: 10px;
+}
