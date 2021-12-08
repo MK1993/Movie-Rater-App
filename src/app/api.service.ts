@@ -8,8 +8,8 @@ import { CookieService } from 'ngx-cookie-service';
 })
 export class ApiService {
 
-  baseMovieUrl= 'http://127.0.0.1:8000/api/movies/'
-  baseUrl= "http://127.0.0.1:8000/"
+  baseMovieUrl= 'https://mk-movie-rater.herokuapp.com/api/movies/'
+  baseUrl= "https://mk-movie-rater.herokuapp.com/"
   headers = new HttpHeaders({'Content-Type':'application/json; charset=utf-8'});
 
   constructor(private http: HttpClient, private cookieService: CookieService) { }
